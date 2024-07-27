@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+      <br>
+    <input type="text">
+    </br>
+    <br>
+    <input type="password">
+    </br>
+    <br>
+    <input type="email">
+    </br>
+    <input type="button">
+    <br>
+        <input type="checkbox">
+    </br>
+    <input type="radio">
+    <br>
+        <input type="color">
+    </br>
+    <input type="date" max="2024-07-13">
+    <br>
+    <br>
+    <input type="datetime-local">
+    <input type="month">
+    <input type="number">
+    <input type="week">
+    <input type="range" min="1" max="100">
+    <input type="search">
+    <input type="tel">
+    <input type="url">
+    <input type="file">
+    <input type="image" src="assets/images/small.jpg">
+    <input type="hidden">
+     <input type="submit" value="Submit">
+     <input type="reset" value="Reset">
+    <input type="button" value="Button">
+
+</form>
+
+<form action="test.html" >
+    <h1>Student Form</h1>
+    <br>
+    <label for="first-name" >First Name</label>
+    <input type="text" id="first-name" name="fname" placeholder="enter your first name">
+    </br>
+    <br>
+    <label for="last-name" >Last Name</label>
+    <input type="text" id="last-name" name="lname" placeholder="enter your last name">
+   </br>
+
+    <textarea
+            placeholder="enter your msg"
+            id="message"
+            rows="10"
+            cols="100">
+</textarea>
+    <br>
+    <label for="program">Program</label>
+    <select id="program" name="program">
+        <option value="">Select Program</option>
+
+        <optgroup label="back end">
+        <option value="p1">Java SE</option>
+        <option value="p2">Java EE</option>
+        <option value="p3">Spring Boot</option>
+        <option value="p4">NodeJs</option>
+        <option value="p5">Go</option>
+        <option value="p6">perl</option>
+        </optgroup>
+        <optgroup label="front end">
+        <option value="f1">HTML5</option>
+        <option value="f2">CSS3</option>
+        <option value="f3">JavaScript</option>
+        <option value="f4">React</option>
+        <option value="f5">Vue.js</option>
+        <option value="f6">Angular</option>
+        </optgroup>
+    </select>
+    <br>
+        <label>Payment Method</label>
+    </br>
+    <br>
+        <input type="radio" id="OneTime-payment" name="payment" value="one-time" >
+    <label for="OneTime-payment">One Time Payment</label>
+    </br>
+    <br>
+        <input type="radio" id="Monthly-payment" name="payment" value="monthly">
+         <label for="Monthly-payment" >Monthly Payment</label>
+    </br>
+    <button>Click</button>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    <br>
+        <datalist id="list">
+            <option value="frontend">front end developer</option>
+            <option value="frontend">front end developer</option>
+            <option value="Java">
+            <option value="JavaScript">
+            <option value="HTML">
+            <option value="CSS">
+        </datalist>
+    <input type="text" list="list">
+    </br>
+
+</form>
+
+<form oninput="result.value=parseInt(num1.value)+parseInt(num2.value)">
+    <input type="number" id="num1" name="num1">
+    <input type="number" id="num2" name="num2">
+    <output name="result" for="a b">0</output>
+</form>
+
+
+<form oninput="result.value=parseInt(num3.value)+parseInt(num4.value)">
+    <input type="range" id="num3" name="num3">
+    <input type="number" id="num4" name="num4">
+    <output name="result" for="a b">0</output>
+</form>
+</body>
+</html>

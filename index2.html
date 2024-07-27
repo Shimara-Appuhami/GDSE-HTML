@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<img src="assets/images/large.jpg" title="Apple Iphone" alt="iphone 14 pro" width="100">
+<picture >
+    <source srcset="assets/images/small.jpg" media="(max-width: 600px)">
+    <source srcset="assets/images/medium.jpg" media="(min-width: 601px)">
+    <img src="assets/images/large.jpg" alt="Apple Iphone">
+</picture>
+
+<video src="assets/videos/car.mp4"
+       autoplay
+       muted
+       loop
+       controls
+       poster="assets/images/car.jpg"
+       width="700"
+       height="400">
+
+    <track label="English" kind="subtitles" src="assets/videos/subtitles/sample.vtt" >
+    <track label="Arabic" kind="subtitles" src="assets/videos/subtitles/arabic.vtt" >
+</video>
+
+<audio controls>
+    <source src="assets/audios/audios/audio_file2.mp3" type="audio/mp3">
+</audio>
+
+</body>
+</html>
